@@ -1,0 +1,49 @@
+html,body{
+width: 100%;
+min-height: 100%;
+height: auto;
+overflow: auto;
+background: #1a1a1a;
+color: white;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+.category-wrapper{
+  min-height: 200px;
+  margin-bottom: 2%;
+}
+.carousel-control { 
+  width: 8%;
+  width: 0px;
+}
+.carousel-control.left,
+.carousel-control.right { 
+  margin-right: 20px;
+  margin-left: 12px; 
+  background-image: none;
+  opacity: 1;
+}
+.carousel-control > a > span {
+  color: white;
+  font-size: 22px !important;
+  font-weight: 300;
+}
+
+
+
+.block {
+width: 206px;
+height: 160px;
+}
+
+.category-heading{
+  min-height: 40px;
+  margin: 1%;
+  border-bottom: 1px solid darkolivegreen; 
+  padding-left: 1%; 
+  font-size: 20px;
+
+}
