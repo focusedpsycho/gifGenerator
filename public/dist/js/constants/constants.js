@@ -2,7 +2,8 @@ angular.module('emotionGIFGenerator')
 .constant('config', {
     appName: 'emotionGIFGenerator',
     appVersion: 1.0,
-    giphyBaseUrl:"https://api.giphy.com/v1/gifs/search"
+    giphyBaseUrl:"https://api.giphy.com/v1/gifs/search",
+    apiKey: 'CpnjeLOGKnDfxJFh9zRolOJ8utKnpkOG'
 })
 
 .constant('categories',{

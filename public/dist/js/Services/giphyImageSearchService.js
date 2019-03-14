@@ -14,7 +14,7 @@ angular.module('emotionGIFGenerator')
            {
                params: {
                    'q': category,
-                   'api_key': 'CpnjeLOGKnDfxJFh9zRolOJ8utKnpkOG'
+                   'api_key': config.apiKey
                }
            }
        ).then(function success(response)
